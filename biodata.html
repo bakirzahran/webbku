@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biodata dengan Gambar, Video, dan Audio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        h1, h2 {
+            text-align: center;
+            color: #0066cc;
+        }
+        .biodata img {
+            display: block;
+            margin: 0 auto;
+            width: 200px;
+            height: auto;
+            border-radius: 50%;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .biodata {
+            text-align: center;
+        }
+        video {
+            display: block;
+            margin: 20px auto;
+            width: 100%;
+            max-width: 600px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+        }
+        audio {
+            display: block;
+            margin: 20px auto;
+            width: 100%;
+            max-width: 600px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Biodata</h1>
+
+    <div class="biodata">
+        <img src="profile.jpg" alt="Foto Profil">
+        <h2>Nama: Andi Wijaya</h2>
+        <p>Usia: 25 Tahun</p>
+        <p>Profesi: Web Developer</p>
+        <p>Hobi: Coding, Musik, dan Fotografi</p>
+    </div>
+
+    <h2>Video Profil</h2>
+    <video controls autoplay muted>
+        <source src="profil_video.mp4" type="video/mp4">
+        Browser Anda tidak mendukung elemen video.
+    </video>
+
+    <h2>Musik Favorit</h2>
+    <audio controls autoplay>
+        <source src="musik_favorit.mp3" type="audio/mpeg">
+        Browser Anda tidak mendukung elemen audio.
+    </audio>
+</div>
+
+</body>
+</html>
